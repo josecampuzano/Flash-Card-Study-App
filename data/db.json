@@ -1,0 +1,94 @@
+{
+  "decks": [
+    {
+      "id": 1,
+      "name": "Rendering in React",
+      "description": "React's component structure allows for quickly building a complex web application that relies on DOM manipulation. "
+    },
+    {
+      "name": "React Router",
+      "description": "React Router is a collection of navigational components that compose declaratively with your application.",
+      "id": 2
+    }
+  ],
+  "cards": [
+    {
+      "front": "Differentiate between Real DOM and Virtual DOM. This should be an updated Card! ",
+      "back": "Virtual DOM updates are faster but do not directly update the HTML This should be an updated Card!!",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "front": "How do you modify the state of a different React component?",
+      "back": "Not at all! State is visible to the component only.",
+      "deckId": 1
+    },
+    {
+      "id": 3,
+      "front": "How do you pass data 'down' to a React child component?",
+      "back": "As properties or props",
+      "deckId": 1
+    },
+    {
+      "front": "What path will match the follow Route?\n<Route>\n  <NotFound />\n</Route>",
+      "back": "All paths. A route with no path matches all URL's",
+      "deckId": 2,
+      "id": 4
+    },
+    {
+      "front": "What does <Switch> do?",
+      "back": "Renders the first matching child <Route> ",
+      "deckId": 2,
+      "id": 5
+    },
+    {
+      "cards": [],
+      "front": "b",
+      "back": "b",
+      "deckId": 1,
+      "id": 7
+    },
+    {
+      "front": "What does it mean to be a new card?",
+      "back": "It means that you get your own card ID and you get a spot in the Deck you are associated with! ",
+      "deckId": 2,
+      "id": 8
+    },
+    {
+      "front": "What does it mean to be a new card?",
+      "back": "It means that you get your own card ID and you get a spot in the Deck you are associated with! ",
+      "deckId": 2,
+      "id": 9
+    },
+    {
+      "front": "What should we expect when we hit the save button?",
+      "back": "We should expect the contents of this form to clear! Let's see!!",
+      "deckId": 2,
+      "id": 10
+    },
+    {
+      "front": "This is a new card! ",
+      "back": "This card was created at 9:45 on August 24th 2022",
+      "deckId": 2,
+      "id": 11
+    },
+    {
+      "front": "This should be a new card in Rendering in React that was added on August 25th",
+      "back": "This should be the back of the card that was added on August 25th",
+      "deckId": 1,
+      "id": 12
+    },
+    {
+      "front": "We will test if after adding this card and then hitting done, the card shows up in the Deck View Page!",
+      "back": "We shall see!!",
+      "deckId": 1,
+      "id": 13
+    },
+    {
+      "front": "trytfygjfikytf",
+      "back": "tuyfoutgfugf",
+      "deckId": 1,
+      "id": 17
+    }
+  ]
+}
